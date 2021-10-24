@@ -31,7 +31,7 @@ setInterval(() => {
 
     if (jugLeft < 50 && jugLeft > 0 && chunTop > 300){
         alert("You got a score of: " + score.innerText +
-        "\n\nPlay again?");
+        "\n\nPlay again? \n\nTo play: use space bar on keyboard or Jump button if on phone.");
       location.reload();
     }
 }, 50)

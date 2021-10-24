@@ -9,6 +9,17 @@
     display: flex;
     flex-direction: row;
 }
+
+.credit{
+    text-align: center;
+    top:450px;
+    left:700px;
+    position: absolute;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
 #score{
     height: 50px;
     width: 100px;
