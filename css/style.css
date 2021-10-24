@@ -1,0 +1,84 @@
+.score{
+    height: 75px;
+    width: 200px;
+    text-align: center;
+    top:20px;
+    left:900px;
+    position: absolute;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+#score{
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    top:50px;
+    left:900px;
+    background-color: beige;
+    border-radius: 20px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+#game{
+    width: 1000px;
+    height: 500px;
+    border: 2px solid black;
+    margin: auto;
+    background-image: url("https://camo.envatousercontent.com/97a391b5c0b4a36a1de3799bd638383ccfbfab1f/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f593032425a34683077624b4e67555a6d78782f67697068792e676966");
+    background-size: cover;
+}
+
+#chun-li{
+    height: 75px;
+    width: 75px;
+    position: relative;
+    top: 375px;
+    background-image: url("https://www.fightersgeneration.com/characters/chunny-runny.gif");
+    background-size: cover;
+}
+
+#juggernaut{
+    height: 150px;
+    width: 250px;
+    position: absolute;
+    top: 315px;
+    left: 840px;
+    background-image: url("https://www.fightersgeneration.com/characters2/juggypunch.gif");
+    transform: scaleX(-1);
+    background-size: cover;
+    animation: psyloke 4s;
+}
+
+button{
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    top:250px;
+    right:100px;
+    position: absolute;
+}
+
+@keyframes psyloke {
+    0%{left:800px;}
+    100%{left: -200px;;}
+}
+
+.jump-animation {
+    animation: jump 0.5s;
+}
+@keyframes jump {
+    0%{top:375px;}
+    50%{top:175px; right:-75px; background-image: url('https://www.fightersgeneration.com/characters/chun-mvc-jumpu.gif'); height: 150px; width: 150px;}
+    75%{top:175px; right:-150px; background-image: url('https://www.fightersgeneration.com/characters/chun-mvc-jumpu.gif'); height: 150px; width: 150px;}
+    85%{top:375px; right:-75px;}
+    95%{top:375px; right:-50px;}
+    100%{top:375px;}
+}
+
+.description{
+    height: 500px;
+    width: 300px;
+}
