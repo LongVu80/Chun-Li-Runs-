@@ -24,7 +24,7 @@ setInterval(() => {
     score.innerText++;
 
     if (jugLeft < 0) {
-            juggernaut.style.display = "none";
+        juggernaut.style.display = "none";
     } else {
         juggernaut.style.display= "";
     }
