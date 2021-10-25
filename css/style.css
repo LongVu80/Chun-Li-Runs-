@@ -56,7 +56,7 @@
     width: 250px;
     position: absolute;
     top: 315px;
-    left: 840px;
+    left: 950px;
     background-image: url("https://www.fightersgeneration.com/characters2/juggypunch.gif");
     transform: scaleX(-1);
     background-size: cover;
@@ -81,7 +81,7 @@ button{
         width: 250px;}
     50%{top:315px; background-image: url("https://www.fightersgeneration.com/characters2/juggypunch.gif"); height: 150px;
         width: 250px;}
-    100%{left: -200px;}
+    100%{left: -100px;}
 }
 
 .jump-animation {
