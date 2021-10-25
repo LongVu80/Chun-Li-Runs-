@@ -82,11 +82,10 @@ button{
 }
 @keyframes jump {
     0%{top:375px;}
-    50%{top:175px; right:-75px; background-image: url('https://www.fightersgeneration.com/characters/chun-mvc-jumpu.gif'); height: 150px; width: 150px;}
-    75%{top:175px; right:-150px; background-image: url('https://www.fightersgeneration.com/characters/chun-mvc-jumpu.gif'); height: 150px; width: 150px;}
-    85%{top:375px; right:-75px;}
-    95%{top:375px; right:-50px;}
-    100%{top:375px;}
+    25%{top:150px; right:-75px; background-image: url('https://www.fightersgeneration.com/characters/chun-mvc-jumpu.gif'); height: 150px; width: 150px;}
+    50%{top:150px; right:-150px; background-image: url('https://www.fightersgeneration.com/characters/chun-mvc-jumpu.gif'); height: 150px; width: 150px;}
+    75%{top:150px; right:-200px; background-image: url('https://www.fightersgeneration.com/characters/chun-mvc-jumpu.gif'); height: 150px; width: 150px;}
+    100%{top:375px; right: -100px;}
 }
 
 .description{
