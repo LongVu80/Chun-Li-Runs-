@@ -84,7 +84,7 @@ button{
 }
 
 .jump-animation {
-    animation: jump 0.5s;
+    animation: jump 0.75s;
 }
 @keyframes jump {
     0%{top:375px;}
