@@ -63,14 +63,14 @@
     animation: juggernaut 4s;
 }
 
-button{
+/* button{
     height: 50px;
     width: 150px;
     border-radius: 20px;
     top:250px;
     right:100px;
     position: absolute;
-}
+} */
 
 @keyframes juggernaut {
     0%{top: 100px; left:950px; background-image: url("https://www.fightersgeneration.com/characters2/jug-rar.gif"); height: 150px;
