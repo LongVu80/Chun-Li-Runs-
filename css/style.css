@@ -75,7 +75,8 @@ button{
 @keyframes juggernaut {
     0%{top: 100px; left:950px; background-image: url("https://www.fightersgeneration.com/characters2/jug-rar.gif"); height: 100px;
         width: 85px; transform: scaleX(-1);}
-    25%{top:315px; left:800px;}
+    25%{top:315px; left:800px; background-image: url("https://www.fightersgeneration.com/characters2/jug-rar.gif"); height: 100px;
+        width: 85px; transform: scaleX(-1);}
     27%{left:800px;  background-image: url("https://www.fightersgeneration.com/characters2/juggypunch.gif"); height: 150px;
         width: 250px;}
     50%{top:315px; background-image: url("https://www.fightersgeneration.com/characters2/juggypunch.gif"); height: 150px;
